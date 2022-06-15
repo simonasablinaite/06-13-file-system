@@ -6,7 +6,7 @@ const testas = await skaitomTest()
 
 // testas Nr.1: kai viskas nurodyta teisingai
 
-const readStatus = await file.read('users', 'petras.json');
+// const readStatus = await file.read('users', 'petras.json');
 //console.log('readStatus:', readStatus);
 
 // test Nr.2: nurodytas neteisingas failo pavadinimas
@@ -20,8 +20,8 @@ const userMaryte = {
    isMarried: false,
 }
 
-const createStatus = await file.create('users', 'maryte.json', userMaryte);
-console.log('File status:', createStatus);
+const createStatus = await file.create('asd', 'betkas.txt', userMaryte);
+// console.log('File status:', createStatus);
 
 
 
